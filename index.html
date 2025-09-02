@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Achraf Bakhira Store</title>
+
+  <!-- خطوط احترافية (تشتغل عبر الإنترنت، ومعها بدائل محلية) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600;1,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- شريط علوي للمعلومات -->
+  <div class="topbar">
+    <div class="contact-line">
+      <!-- أيقونة ديسكورد SVG -->
+      <svg class="icon discord" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M20.317 4.369A19.791 19.791 0 0 0 16.558 3c-.197.35-.422.82-.577 1.194a18.27 18.27 0 0 0-3.962 0A7.02 7.02 0 0 0 11.442 3a19.812 19.812 0 0 0-3.76 1.369C4.862 7.116 4 10.12 4 13.07c0 .061 0 .122.002.183C5.76 14.93 7.823 15.9 10 16c.28-.384.53-.795.748-1.229a6.61 6.61 0 0 1-1.07-.41l.242-.165c2.06.96 4.3.96 6.36 0l.242.165c-.352.164-.713.304-1.07.41.217.434.468.845.748 1.23 2.177-.1 4.24-1.07 5.998-2.748.002-.06.002-.12.002-.183 0-2.95-.862-5.954-2.885-8.7zM9.5 13.25c-.69 0-1.25-.78-1.25-1.75S8.81 9.75 9.5 9.75s1.25.78 1.25 1.75-.56 1.75-1.25 1.75zm5 0c-.69 0-1.25-.78-1.25-1.75s.56-1.75 1.25-1.75S15.75 10.53 15.75 11.5s-.56 1.75-1.25 1.75z"/>
+      </svg>
+      <span>التواصل: <strong>discord:Martx</strong></span>
+    </div>
+
+    <a class="insta-link" href="https://www.instagram.com/bakhira.store2025?igsh=MTkyNHlvdGw5aDgxMw==" target="_blank" rel="noopener">
+      <svg class="icon instagram" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.5 5.5 0 0 1 12 7.5zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5zM18 6.2a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/>
+      </svg>
+      زورونا في إنستغرام
+    </a>
+  </div>
+
+  <!-- نافبار -->
+  <header class="navbar">
+    <div class="brand">
+      <img src="images/logo.png" alt="Logo" class="logo" />
+      <div class="brand-text">
+        <h1 class="site-title">Achraf akber bakhira</h1>
+        <p class="site-sub">باخرة الستور</p>
+      </div>
+    </div>
+
+    <nav class="menu">
+      <a href="#home" class="nav-link">الرئيسية</a>
+      <a href="#shop" class="nav-link">المتجر</a>
+      <a href="#for-achraf" class="nav-link">For Achraf Sabiri</a>
+      <a href="#cart" class="nav-link">السلة</a>
+      <!-- خيار Option للتنقل -->
+      <select id="quickSwitch" aria-label="التنقل السريع">
+        <option value="#home">الرئيسية</option>
+        <option value="#shop">المتجر</option>
+        <option value="#cart">السلة</option>
+        <option value="#for-achraf">For Achraf Sabiri</option>
+        <option value="instagram">Instagram</option>
+      </select>
+    </nav>
+  </header>
+
+  <!-- هيرو -->
+  <section id="home" class="section hero reveal">
+    <img src="images/bakhira.jpg" alt="Bakhira Ship" class="hero-bg">
+    <div class="hero-overlay"></div>
+    <div class="hero-inner">
+      <h2 class="hero-title">Welcome to Achraf Bakhira Store</h2>
+      <p class="hero-tag">Tible • Mol Bakhira — The legend of Moroccan streaming</p>
+      <a href="#shop" class="btn primary glow">تسوّق الآن</a>
+    </div>
+  </section>
+
+  <!-- المتجر + خصم -->
+  <section id="shop" class="section reveal">
+    <div class="promo-banner">
+      <span>خصم <strong>30%</strong> بكود: <code>Achraf lmezkk</code></span>
+    </div>
+
+    <h3 class="section-title">T-Shirts (60 MAD)</h3>
+    <div class="grid products">
+      <!-- 6 منتجات -->
+      <article class="card product" data-name="Bakhira Classic" data-price="60" data-id="1">
+        <img src="images/tshirt1.png" alt="T-Shirt 1">
+        <div class="card-body">
+          <h4>Bakhira Classic</h4>
+          <p>قميص كلاسيكي مستوحى من Tible.</p>
+          <div class="price">60 MAD</div>
+          <button class="btn add">أضف للسلة</button>
+        </div>
+      </article>
+
+      <article class="card product" data-name="Tible Bold" data-price="60" data-id="2">
+        <img src="images/tshirt2.png" alt="T-Shirt 2">
+        <div class="card-body">
+          <h4>Tible Bold</h4>
+          <p>ستايل جريء مع لمسات ذهبية.</p>
+          <div class="price">60 MAD</div>
+          <button class="btn add">أضف للسلة</button>
+        </div>
+      </article>
+
+      <article class="card product" data-name="Mol Bakhira" data-price="60" data-id="3">
+        <img src="images/tshirt3.png" alt="T-Shirt 3">
+        <div class="card-body">
+          <h4>Mol Bakhira</h4>
+          <p>تقدير لأسطورة الباخرة.</p>
+          <div class="price">60 MAD</div>
+          <button class="btn add">أضف للسلة</button>
+        </div>
+      </article>
+
+      <article class="card product" data-name="Achraf Wave" data-price="60" data-id="4">
+        <img src="images/tshirt4.png" alt="T-Shirt 4">
+        <div class="card-body">
+          <h4>Achraf Wave</h4>
+          <p>موجة سالة بتفاصيل راقية.</p>
+          <div class="price">60 MAD</div>
+          <button class="btn add">أضف للسلة</button>
+        </div>
+      </article>
+
+      <article class="card product" data-name="Streamer Pro" data-price="60" data-id="5">
+        <img src="images/tshirt5.png" alt="T-Shirt 5">
+        <div class="card-body">
+          <h4>Streamer Pro</h4>
+          <p>لأوفياء اللايفات.</p>
+          <div class="price">60 MAD</div>
+          <button class="btn add">أضف للسلة</button>
+        </div>
+      </article>
+
+      <article class="card product" data-name="Salé Giant" data-price="60" data-id="6">
+        <img src="images/tshirt6.png" alt="T-Shirt 6">
+        <div class="card-body">
+          <h4>Salé Giant</h4>
+          <p>إشارة لأكبر باخرة فسالـة.</p>
+          <div class="price">60 MAD</div>
+          <button class="btn add">أضف للسلة</button>
+        </div>
+      </article>
+    </div>
+
+    <!-- كارت مختصرة -->
+    <div class="mini-cart">
+      <div class="cart-summary">
+        <span>العناصر: <b id="cartCount">0</b></span>
+        <span>المجموع: <b id="cartTotal">0</b> MAD</span>
+      </div>
+
+      <form id="checkoutForm" class="checkout">
+        <div class="field">
+          <label>كود الخصم</label>
+          <input type="text" id="coupon" placeholder="Achraf lmezkk">
+        </div>
+
+        <div class="field">
+          <label>عنوان التوصيل</label>
+          <input type="text" id="address" placeholder="المدينة، الحي، رقم الهاتف" required>
+        </div>
+
+        <button type="submit" class="btn primary glow">تأكيد الطلب</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- صفحة مخصّصة لآشرف -->
+  <section id="for-achraf" class="section reveal">
+    <h3 class="section-title">For Achraf Sabiri</h3>
+    <div class="card long-text">
+      <p>
+        "Achraf sabiri hada khok mn discord baraka mn nefs lmawadi3 rah helktina
+        kola live u dik lbrazalia tmchi wehda u tji wehda u leab la baghi tleab
+        azbi machi blan tqt3 live ela li tel3ok besbabk fechloq u nod thwa mea krk
+        u tahia l akber bakhira endk u qderni ela had lmejhod rah sawbt lik site"
+      </p>
+      <p class="muted">
+        المشروع مستلهم من قصة أشرف الصبيري، الستريمر المغربي الأشهر الملقب بـ
+        <strong>Tible</strong> و<strong>Mol Bakhira</strong>.
+      </p>
+    </div>
+  </section>
+
+  <!-- السلة (قسم مستقل) -->
+  <section id="cart" class="section reveal">
+    <h3 class="section-title">سلة المشتريات</h3>
+    <div id="cartItems" class="cart-list card"></div>
+    <div class="cart-totals card">
+      <div>المجموع: <b id="cartTotalPage">0</b> MAD</div>
+      <div>الخصم: <b id="discountPage">0</b> MAD</div>
+      <div>الإجمالي بعد الخصم: <b id="grandTotalPage">0</b> MAD</div>
+    </div>
+  </section>
+
+  <!-- نافذة تأكيد الطلب (توثيق أخضر متحرك) -->
+  <div id="confirmOverlay" class="confirm-overlay" aria-hidden="true">
+    <div class="confirm-box">
+      <svg class="checkmark" viewBox="0 0 52 52" aria-hidden="true">
+        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+        <path class="checkmark__check" fill="none" d="M14 27l7 7 17-17"/>
+      </svg>
+      <h4>تم إرسال الطلب!</h4>
+      <p>طلبك قيد التحقق، سيتم التواصل معك.</p>
+      <button id="closeConfirm" class="btn">إغلاق</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <span>&copy; 2025 Achraf Bakhira Store</span>
+    </div>
+    <div class="footer-right">
+      <a class="insta-link" href="https://www.instagram.com/bakhira.store2025?igsh=MTkyNHlvdGw5aDgxMw==" target="_blank" rel="noopener">
+        <svg class="icon instagram" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.5 5.5 0 0 1 12 7.5zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5zM18 6.2a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/>
+        </svg>
+        Instagram
+      </a>
+      <span class="divider">|</span>
+      <div class="contact-line">
+        <svg class="icon discord" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20.317 4.369A19.791 19.791 0 0 0 16.558 3c-.197.35-.422.82-.577 1.194a18.27 18.27 0 0 0-3.962 0A7.02 7.02 0 0 0 11.442 3a19.812 19.812 0 0 0-3.76 1.369C4.862 7.116 4 10.12 4 13.07c0 .061 0 .122.002.183C5.76 14.93 7.823 15.9 10 16c.28-.384.53-.795.748-1.229a6.61 6.61 0 0 1-1.07-.41l.242-.165c2.06.96 4.3.96 6.36 0l.242.165c-.352.164-.713.304-1.07.41.217.434.468.845.748 1.23 2.177-.1 4.24-1.07 5.998-2.748.002-.06.002-.12.002-.183 0-2.95-.862-5.954-2.885-8.7zM9.5 13.25c-.69 0-1.25-.78-1.25-1.75S8.81 9.75 9.5 9.75s1.25.78 1.25 1.75-.56 1.75-1.25 1.75zm5 0c-.69 0-1.25-.78-1.25-1.75s.56-1.75 1.25-1.75S15.75 10.53 15.75 11.5s-.56 1.75-1.25 1.75z"/>
+        </svg>
+        discord:Martx
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
